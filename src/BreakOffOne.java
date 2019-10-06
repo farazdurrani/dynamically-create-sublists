@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class Driver {
+public class BreakOffOne {
 	public static void main(String[] args) {
 		List<String> mainList = prepareList();
 		System.out.println("Total items in list " + mainList.size());
