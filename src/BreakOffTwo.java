@@ -5,11 +5,11 @@ import java.util.List;
 public class BreakOffTwo {
 	public static void main(String[] args) {
 		List<String> mainList = prepareList();
-		System.out.println("Total items in list " + mainList.size());
+//		//System.out.println("Total items in list " + mainList.size());
 		List<List<String>> sublists = breakList(mainList, 4);
 
 		for (List<String> list : sublists) {
-			System.out.println(list);
+//			//System.out.println(list);
 		}
 
 		// tests
@@ -21,7 +21,7 @@ public class BreakOffTwo {
 			testList.addAll(list);
 		}
 
-		System.out.println("Exhaustive test both ways.");
+//		//System.out.println("Exhaustive test both ways.");
 
 		//first test mainList
 		mainListCopy.removeAll(testList);
@@ -38,13 +38,13 @@ public class BreakOffTwo {
 				"How could it be. breakList(..) method must be broken");
 		}
 		
-		System.out.println("Exhaustive testing finished. If no exception is thrown, tests passed.");
+		////System.out.println("Exhaustive testing finished. If no exception is thrown, tests passed.");
 
 	}
 
 	public static List<List<String>> breakList(List<String> list,
 		double maxItems) {
-		System.out.println("Max elements allowed in a list: " + maxItems);
+		//System.out.println("Max elements allowed in a list: " + maxItems);
 		List<List<String>> smallerLists = null;
 
 		if (list.size() <= maxItems) {
@@ -55,8 +55,8 @@ public class BreakOffTwo {
 		
 		int numberOfSmallerLists = (int) Math.ceil(list.size() / maxItems);
 
-		System.out.println(
-			"Number of smaller lists to be made: " + numberOfSmallerLists);
+		//System.out.println(
+		//	"Number of smaller lists to be made: " + numberOfSmallerLists);
 		
 		smallerLists = new ArrayList<>(numberOfSmallerLists);
 
