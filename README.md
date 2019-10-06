@@ -1,4 +1,4 @@
-# dynamically-create-sublists
+# Dynamically create sublists. 
 Dynamically create sub lists from one single list.
 
 It has two versions. BreakOffTwo.java is the best and fastest.
