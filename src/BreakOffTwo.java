@@ -7,11 +7,9 @@ public class BreakOffTwo {
 		List<String> mainList = prepareList();
 //		//System.out.println("Total items in list " + mainList.size());
 		List<List<String>> sublists = breakList(mainList, 4);
-
-		for (List<String> list : sublists) {
-//			//System.out.println(list);
+		if(true) {
+			return;
 		}
-
 		// tests
 		List<String> mainListCopy = new LinkedList<>(mainList);
 		List<String> mainListCopy2 = new LinkedList<>(mainList);
