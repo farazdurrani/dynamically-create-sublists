@@ -1,5 +1,6 @@
 # Dynamically create sublists. 
-Dynamically create sub lists from one single list.
+
+Dynamically create sub lists from one single list. You can control how many elements can each sublist have.
 
 It has three versions:
 - Break List using LinkedList
